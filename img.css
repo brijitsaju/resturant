@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+}
+h1{
+    padding: 50px;
+    text-align: center;
+    background-color: rgb(20, 20, 18);
+    color: rgb(145, 116, 43);
+    font-size: 50px;
+    border: solid goldenrod 3px;    
+    align-items: center;
+    font-weight: bolder;
+    }
+
+footer{
+    color: black;
+    margin-top: 50px;   
+}
+
+.up-arrow{
+    text-align: right;
+    color: rgb(110, 14, 14);
+   
+    
+}
+#contact{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px;
+    font-weight: bolder;
+    text-align: center;
+}
+.copyright{
+    background-color: rgb(169, 125, 14);
+}
+.icon{
+    color: black;
+    margin: 10px;
+}
+
+.icon i:hover{
+    color: rgb(164, 130, 28);
+    animation:shake 0.75s ;
+}
+@keyframes shake{
+    10%{
+        transform: rotate(15deg);
+    }
+    20%{
+        transform: rotate(-15deg);
+    }
+    30%{
+        transform: rotate(15deg);
+    }
+    40%{
+        transform: rotate(-15deg);
+    }
+}
+
+

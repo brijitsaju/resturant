@@ -1,0 +1,208 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'REM', sans-serif;
+    font-family: 'Unna', serif;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+.image{
+    width: 100%;
+    height: 600px;
+    border-radius: 10px;
+}
+.navbar{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.logo{
+    width: 140px;
+    height: 125px;
+    margin-left: 10px;
+   margin-top: -50px;
+}
+
+.listitem{
+   display: inline;
+   text-decoration: none;
+   text-align: right;
+   margin-right: 30px;
+   
+   
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: -500px;
+    
+}
+.link:hover{
+    color: goldenrod;
+   
+}
+
+.homepage{
+    position: relative;
+    color: rgb(231, 234, 237);
+}
+.title{
+   position: absolute; 
+   text-align: center;
+   top: 450px;
+  left: 50%;
+  font-family: cursive;
+  font-weight: 100;
+  font-size: 50px;
+  color: goldenrod;
+
+}
+.content{
+    font-size: 20px;
+}
+#aboutus,.service,.gallery{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 50px;
+}
+.about{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.aboutcontent{
+    margin: 20px;
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-right: 50px;
+    margin-left: 40px;
+    letter-spacing: 1px;
+    
+}
+#fade,#fade1{
+    animation: fade 6s;
+
+}
+@keyframes fade{
+    0%{transform: translateY(30px);}
+    50%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+ img {
+
+    transition: width 2s, height 4s;
+  }
+  
+img :hover {
+    width: 100px;
+    height: 100px;
+  }
+
+.flex1{
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    gap: 3rem;
+    margin-left: 50px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+.flex2{
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    gap: 3rem;
+    margin-left: 50px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+.flex3{
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    gap: 3rem;
+    margin-left: 50px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-right: 50px;
+    margin-top: 30px;
+   
+}
+.flex4{
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    gap: 3rem;
+    margin-left: 50px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+footer{
+    color: black;
+    margin-top: 50px;    
+}
+
+.up-arrow{
+    text-align: right;
+    color: black;   
+}
+
+#contact{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px;
+    font-weight: bolder;
+    text-align: center;
+}
+.copyright{
+    background-color: rgb(194, 154, 52);
+}
+.icon{
+    color: black;
+    margin: 10px;
+}
+
+.icon i:hover{
+    color: rgb(164, 130, 28);
+    animation:shake 0.75s ;
+}
+
+.up-arrow i:hover{
+    color: rgb(207, 207, 58);
+    animation:shake 0.75s ;
+}
+@keyframes shake{
+    10%{
+        transform: rotate(15deg);
+    }
+    20%{
+        transform: rotate(-15deg);
+    }
+    30%{
+        transform: rotate(15deg);
+    }
+    40%{
+        transform: rotate(-15deg);
+    }
+}
+
+
+

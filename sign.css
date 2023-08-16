@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    align-items: center;  
+    text-align: center;
+}
+
+body{
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+
+.box{
+    margin-left :470px;;
+    margin-right:350px;
+    background-color: rgb(186, 186, 144);
+    padding:10px ;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 280px;
+    height: 290px;
+}
+
+#username{
+    height: 40px;
+    width: 250px;
+    border-radius:10px ;
+     border-color: black; 
+}
+#password{
+    height: 40px;
+    width: 250px;
+    border-radius:10px ;
+    border-color: black;
+}
+
+#button{height: 50px;
+    width: 280px;
+    background-color: rgb(179, 137, 32);
+    color: rgb(193, 181, 168);
+    font-size: x-large;
+    border-radius:10px ;
+    border: none;
+
+}
+.link{
+    color: #9c8e23;
+    
+
+}
+footer{
+    color: black;
+    margin-top: 30px;
+}
+
+.up-arrow{
+    text-align: right;
+    color: black;
+}
+
+#contact{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px;
+    font-weight: bolder;
+    text-align: center;
+}
+.copyright{
+    background-color: rgb(194, 154, 52);
+}
+.icon{
+    color: black;
+    margin: 10px;
+}
+
+.icon i:hover{
+    color: rgb(164, 130, 28);
+    animation:shake 0.75s ;
+}
+@keyframes shake{
+    10%{
+        transform: rotate(15deg);
+    }
+    20%{
+        transform: rotate(-15deg);
+    }
+    30%{
+        transform: rotate(15deg);
+    }
+    40%{
+        transform: rotate(-15deg);
+    }
+}
